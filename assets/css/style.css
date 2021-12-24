@@ -1,0 +1,27 @@
+body{
+    font-family: roboto;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.navegaçao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.item{
+    margin-left: 10%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item:hover{
+    
+}
