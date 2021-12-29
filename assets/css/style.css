@@ -1,5 +1,6 @@
 body{
     font-family: roboto;
+    overflow-x: hidden;
 }
 
 .cabeçalho{
@@ -17,11 +18,59 @@ body{
 }
 
 .item{
-    margin-left: 10%;
+    margin-left: 15%;
     font-weight: bold;
+    color: rgb(59, 59, 59);
     cursor: pointer;
+    transition: .3s;
+}
+
+.itemactive{
+    font-weight: bold;
+    color: #FF7261;
+    cursor: pointer;
+    transition: .3s;
 }
 
 .item:hover{
-    
+    color: #FF7261;
+}
+
+.botao-header{
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 130%;
+    background-color: #FF7261;
+    color: #ffff;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.botao-header:hover{
+    background-color: #03A4ED;
+}
+
+.a-change-color{
+    cursor: pointer;
+}
+
+.left{
+    background-image: url(../img/baner-dec-left.png);
+    position: absolute;
+    width: 267px;
+    height: 532px;
+    margin-left: 0;
+    background-repeat: no-repeat;
+}
+
+.right{
+    margin-left: 25%;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
 }
