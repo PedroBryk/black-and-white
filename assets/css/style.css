@@ -1,5 +1,5 @@
 body{
-    font-family: roboto;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
@@ -19,14 +19,12 @@ body{
 
 .item{
     margin-left: 15%;
-    font-weight: bold;
     color: rgb(59, 59, 59);
     cursor: pointer;
     transition: .3s;
 }
 
 .itemactive{
-    font-weight: bold;
     color: #FF7261;
     cursor: pointer;
     transition: .3s;
@@ -66,11 +64,100 @@ body{
 }
 
 .right{
-    margin-left: 25%;
+    content: '';
+    background-image: url(../img/banner-right-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    width: 819px;
+    height: 674px;
 }
 
 .principal{
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
+}
+
+.texto{
+    z-index: 1;
+    width: 45%;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.titulo-1{
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #ff695f;
+    margin-bottom: 15px;
+}
+
+.titulo-principal{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 60px;
+}
+
+.rosa{
+    color: #FF7261;
+}
+
+.azul{
+    color: #03A4ED;
+}
+
+.tools{
+    margin-top: 20%;
+}
+
+.tools-back{
+    background-image: url(../img/services-left-dec.png);
+    position: absolute;
+    width: 387px;
+    height: 638px;
+    margin-left: 0;
+    background-repeat: no-repeat;
+}
+
+.tools-titulo{
+    padding-top: 12%;
+    text-align: center;
+    color: #2a2a2a;
+    font-size: 22px;
+}
+
+.tools-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.tool-icon{
+    z-index: 2;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: rgb(240, 239, 239);
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    
+}
+
+.icon-title{
+    color: #2a2a2a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.people-left{
+    background-image: url(../img/about-left-image.png);
+    position: absolute;
+    width: 516px;
+    height: 428.6px;
+    margin-left: 0;
+    background-repeat: no-repeat;
 }
