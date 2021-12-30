@@ -293,3 +293,14 @@ body{
 .buy-btn:hover{
     background-color: #ff695f;
 }
+
+footer{
+    content: '';
+    background-image: url(../img/contact-dec.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    width: 819px;
+    height: 674px;
+}
