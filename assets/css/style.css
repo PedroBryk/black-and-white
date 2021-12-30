@@ -228,20 +228,68 @@ body{
 }
 
 .services-container{
-    display: flex;
-    justify-content: space-between;
     margin-top: 2%;
     
 }
 
-.services-back-right{
-    content: '';
-    background-image: url(../img/tables-right-dec.png);
-    position: absolute;
-    background-size: cover;
-    width: 359px;
-    height: 848px;
-    margin-right: 0;
+.plans{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan{
+    background-color: #ffff;
+    position: relative;
+    z-index: 2;
     background-repeat: no-repeat;
-    z-index: 1;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius: 45px;
+    width: 15%;
+}
+
+.plan-title{
+    font-size: 20px;
+    color: #2a2a2a;
+    padding-bottom: 10%;
+}
+
+.preço{
+    font-size: 44px;
+    color: #ff695f;
+}
+
+.caract{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.caract-plan{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+}
+
+.buy-btn{
+    display: inline-block;
+    background-color: #03a4ed;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    transition: all .3s;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-btn:hover{
+    background-color: #ff695f;
 }
