@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    
 }
 
 .cabeçalho{
@@ -153,11 +154,41 @@ body{
     text-align: center;
 }
 
-.people-left{
-    background-image: url(../img/about-left-image.png);
-    position: absolute;
-    width: 516px;
-    height: 428.6px;
-    margin-left: 0;
-    background-repeat: no-repeat;
+.happy-people{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 12%;
+   
+}
+
+.pessoas-felizes{
+    width: 50%;
+    
+}
+
+.text-content{
+    width: 55%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.text-titulo{
+    text-align: left;
+    color: #2a2a2a;
+    font-size: 22px;
+    margin-bottom: 8%;
+}
+
+.text{
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+
+.cards{
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    
 }
