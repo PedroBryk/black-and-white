@@ -1,7 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    transition: .5s;
     
+}
+
+.change-color-black{
+    display: none;
+    transition: .6s;
+    cursor: pointer;
 }
 
 .cabeçalho{
@@ -51,8 +58,10 @@ body{
     background-color: #03A4ED;
 }
 
-.a-change-color{
+.change-color{
     cursor: pointer;
+    display: block;
+    
 }
 
 .left{
@@ -100,6 +109,7 @@ body{
     font-weight: 700;
     color: #2a2a2a;
     line-height: 60px;
+    transition: .5s;
 }
 
 .rosa{
@@ -158,12 +168,13 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-   margin-top: 12%;
+   margin-top: 10%;
    
 }
 
 .pessoas-felizes{
-    width: 50%;
+    width: 40%;
+    margin-left: 8%;
     
 }
 
@@ -191,4 +202,46 @@ body{
     display: flex;
     align-items: center;
     
+}
+
+.card-titulo{
+    font-size: 45px;
+    color: #2a2a2a;
+}
+
+.card{
+    margin-left: 7%;
+}
+
+.card-info{
+    font-size: 18px;
+    color: #ff695f;
+}
+
+.services-back{
+    background-image: url(../img/tables-left-dec.png);
+    position: absolute;
+    width: 418px;
+    height: 851px;
+    margin-left: 0;
+    background-repeat: no-repeat;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    
+}
+
+.services-back-right{
+    content: '';
+    background-image: url(../img/tables-right-dec.png);
+    position: absolute;
+    background-size: cover;
+    width: 359px;
+    height: 848px;
+    margin-right: 0;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
